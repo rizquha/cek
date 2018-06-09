@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context="com.example.asusa456uq.myapplication.Materi">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/tatacara"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pemilihan Umum : "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="timesnewroman"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:text="1.Sarana partisipasi politik masyarakat: menjadi  pemilih atau menjadi kandidat legislatif."
+                android:textSize="20dp"
+                android:fontFamily="timesnewroman"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="110dp"
+                android:text="2.Saluran kepentingan publik: mendapatkan posisi dalam lembaga pembuat kebijakan."
+                android:textSize="20dp"
+                android:fontFamily="timesnewroman"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="190dp"
+                android:text="3. Mekanisme penggantian pemimpin."
+                android:textSize="20dp"
+                android:fontFamily="timesnewroman"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="245dp"
+                android:text="4. Tata cara pelaksanaan dan metode pemilihan umum dituliskan dalam aturan formal (Konstitusi, Undang-Undang, dll)"
+                android:textSize="20dp"
+                android:fontFamily="timesnewroman"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="jenis Sistem Pemilu : "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="350dp"
+                android:fontFamily="timesnewroman"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="380dp"
+                android:text="- Sistem Distrik (Mayoritas)"
+
+                android:textSize="20dp"
+                android:fontFamily="timesnewroman"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="400dp"
+                android:text="- Sistem Proporsional"
+
+                android:textSize="20dp"
+                android:fontFamily="timesnewroman"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sistem Pemilu Proporsional adalah : "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="430dp"
+                android:fontFamily="timesnewroman"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="455dp"
+                android:text="- Negara dibagi menjadi daerah pilihan-pilihan"
+
+                android:textSize="20dp"
+                android:fontFamily="timesnewroman"/>
+        </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+</LinearLayout>

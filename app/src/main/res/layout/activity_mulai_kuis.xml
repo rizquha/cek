@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.asusa456uq.myapplication.MulaiKuis"
+    android:weightSum="1">
+
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="A. Luas,Jujur,dan Sehat"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/button4" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="B. LUBER JURDIL"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="-300dp"
+        android:id="@+id/button3" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="C. Cepat, Direncanakan, Adil"
+        android:layout_marginTop="189dp"
+        android:layout_marginLeft="-300dp"
+        android:id="@+id/button3" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="D. Hemat, Jujur, Dapat Dipercaya"
+        android:layout_marginTop="247dp"
+        android:layout_marginLeft="-300dp"
+        android:id="@+id/button3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="1. Prinsip Pemilu di Indonesia adalah..."
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="-315dp"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginRight="110dp"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/left" />
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:id="@+id/imageButton2"
+        android:layout_marginTop="370dp"
+        android:src="@drawable/right" />
+
+
+</LinearLayout>
